@@ -4,7 +4,9 @@
  * 
  * Heapsort
  * 
- * This is the header file for template of Heap Class
+ * This is the header file for template of Heap Class,
+ * containing class definition and implementation of
+ * all member functions.
  */
 
 #include <iostream>
@@ -84,9 +86,9 @@ public:
    void build_heap();
    
 private:
-   //precondition: i is the numbering of node (starting from 1)
+   //Precondition: i is the numbering of node (starting from 1)
    //              i is not 1 (as root node has no parent)
-   //postcondition: the numbering of node i's parent is returned
+   //Postcondition: the numbering of node i's parent is returned
    inline int parent(int i)
    {
       //return i/2 (calculating i/2 using bitewise shift operators)
