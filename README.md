@@ -7,5 +7,8 @@
 
 ## Skills
 - C++
+- Templates
+- Inline Functions
 - Data Structures
 - Computer Algorithms
+- Bitwise Operators
